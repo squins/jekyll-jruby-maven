@@ -16,7 +16,7 @@ It works as expected on Mac and Linux, but not on Windows:
     [INFO] Incremental build: disabled. Enable with --incremental
     [INFO] Generating...
     [INFO] C:/Users/username/projects/jekyll-jruby-maven/target/rubygems/gems/jekyll-3.0.2/lib/jekyll/utils.rb:117:in `open': Permission denied - c
-    :/Users/klapj/projects/jekyll-jruby-maven/src/main/resources/css (Errno::EACCES)
+    :/Users/username/projects/jekyll-jruby-maven/src/main/resources/css (Errno::EACCES)
     [INFO] from C:/Users/username/projects/jekyll-jruby-maven/target/rubygems/gems/jekyll-3.0.2/lib/jekyll/utils.rb:117:in `has_yaml_header?'
     [INFO] from C:/Users/username/projects/jekyll-jruby-maven/target/rubygems/gems/jekyll-3.0.2/lib/jekyll/reader.rb:43:in `block in read_directories'
     [INFO] from C:/Users/username/projects/jekyll-jruby-maven/target/rubygems/gems/jekyll-3.0.2/lib/jekyll/reader.rb:43:in `select'
