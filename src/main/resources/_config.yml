@@ -1,0 +1,16 @@
+# Site settings
+title: Jekyll JRuby Windows issues
+email: spam@noplease.org
+description: Reproducing an issue on Windows with JRuby
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://url.domain" # the base hostname & protocol for your site
+
+# Server
+#source:           docs
+
+highlighter: rouge
+markdown: kramdown
+
+# exclude the following directories from the conversion (relative to source directory)
+# Only needed on Windows, and breaks jekyll:serve
+# exclude: [css,docs-js,fonts,icons,images,library,sass,idp-choice.vm]
