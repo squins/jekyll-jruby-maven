@@ -1,14 +1,30 @@
 # Jekyll with JRuby and Maven
 
-Jekyll runs fine with JRuby and Maven, at least on Mac and Linux.
+Jekyll runs fine with JRuby and Maven on Mac and Linux.
 
-Run with:
+On Windows it does not run yet.
+
+## Install Java, Maven
+
+This project requires a Java JDK and Apache Maven to run.
+
+* [Download Java JDK](http://www.oracle.com/technetwork/java/javase/downloads)
+* [Download Apache Maven](https://maven.apache.org/download.cgi)
+
+
+## Generate jekyll site
+
+`
+mvn install
+`
+
+## Jekyll serve
 
 `
 mvn gem:exec@jekyll-serve
 `
 
-It works as expected on Mac and Linux, but not on Windows:
+It works as expected on Mac and Linux, but not on Windows the following stacktrace appears:
     
     [INFO] Configuration file: c:\Users\username\projects\jekyll-jruby-maven/src/main/resources/_config.yml
     [INFO] Source: c:\Users\username\projects\jekyll-jruby-maven/src/main/resources
