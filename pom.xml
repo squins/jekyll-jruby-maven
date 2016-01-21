@@ -167,7 +167,7 @@
                         <phase>generate-resources</phase>
                         <configuration>
                             <file>${project.build.directory}/rubygems/bin/jekyll</file>
-                            <execArgs>build --source ${project.basedir}/src/main/resources --destination ${project.build.outputDirectory}</execArgs>
+                            <execArgs>build --trace --source ${project.basedir}/src/main/resources --destination ${project.build.outputDirectory}</execArgs>
                         </configuration>
                     </execution>
                     <execution>
@@ -178,7 +178,7 @@
                         </goals>
                         <configuration>
                             <file>${project.build.directory}/rubygems/bin/jekyll</file>
-                            <execArgs>serve --source ${project.basedir}/src/main/resources --destination ${project.build.outputDirectory}</execArgs>
+                            <execArgs>serve --trace --source ${project.basedir}/src/main/resources --destination ${project.build.outputDirectory}</execArgs>
                         </configuration>
                         <phase>none</phase>
                     </execution>
